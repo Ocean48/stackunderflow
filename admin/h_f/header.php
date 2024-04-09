@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <title>StackUnderFlow</title>
 </head>
 
@@ -14,7 +14,7 @@
     <header>
         <br style="margin-bottom: 10px;">
         <a href="index.php" style="float: left;">
-            <img class="header_logo" src="" alt="Logo">
+            <img style="width: 150px;" class="header_logo" src="../t.png" alt="Logo">
         </a>
         <a href="index.php" style="float: left;">
             <p style="color: #000000; float: left; margin-left: 5vw; font-size: 35px;">Home</p>
