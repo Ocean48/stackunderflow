@@ -1,7 +1,7 @@
 <?php require_once('private/initialize.php');
 
 admin_require_login();
-$page_title = 'Shop - Admin Interface';
+$page_title = 'StackUnderFlow';
 
 $adminuser = get_admin_by_id($_SESSION['admin_id']);
 
