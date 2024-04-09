@@ -17,13 +17,16 @@
             <img class="header_logo" src="" alt="Logo">
         </a>
         <a href="" style="float: left;">
-            <p style="color: #FFFFFF; float: left; margin-left: 5vw; font-size: 35px;">XXXXX</p>
+            <p style="color: #000000; float: left; margin-left: 5vw; font-size: 35px;">XXXXX</p>
         </a>
         <a href="" style="float: left;">
-            <p style="color: #FFFFFF; float: left; margin-left: 5vw; font-size: 35px;">YYYYY</p>
+            <p style="color: #000000; float: left; margin-left: 5vw; font-size: 35px;">YYYYY</p>
+        </a>
+        <a href="login.php" style="float: left;">
+            <p style="color: #000000; float: left; margin-left: 5vw; font-size: 35px;">Login</p>
         </a>
         <a href="logout.php" style="float: left;">
-            <p style="color: #FFFFFF; float: left; margin-left: 5vw; font-size: 35px;">ZZZZZ</p>
+            <p style="color: #000000; float: left; margin-left: 5vw; font-size: 35px;">Logout</p>
         </a>
         <br style="margin-bottom: 10px; clear: both;">
         <br style="margin-bottom: 10px; clear: both;">
