@@ -16,7 +16,7 @@ include('h_f/header.php');
 </div>
 
 <main>
-    <p></p>
+    <p>Main</p>
 </main>
 
 <br>

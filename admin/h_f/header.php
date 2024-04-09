@@ -16,8 +16,8 @@
         <a href="index.php" style="float: left;">
             <img class="header_logo" src="" alt="Logo">
         </a>
-        <a href="" style="float: left;">
-            <p style="color: #000000; float: left; margin-left: 5vw; font-size: 35px;">XXXXX</p>
+        <a href="index.php" style="float: left;">
+            <p style="color: #000000; float: left; margin-left: 5vw; font-size: 35px;">Home</p>
         </a>
         <a href="" style="float: left;">
             <p style="color: #000000; float: left; margin-left: 5vw; font-size: 35px;">YYYYY</p>
