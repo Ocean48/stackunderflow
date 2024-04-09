@@ -13,22 +13,13 @@
 <body>
 
     <header>
-        <br style="margin-bottom: 10px;">
+        <!-- <br style="margin-bottom: 10px;"> -->
         <a href="index.php" style="float: left;">
-            <img id="header_logo" src="ot.png" alt="Logo">
+            <img id="header_logo" src="t.png" alt="Logo">
         </a>
         <a href="index.php" style="float: left;">
             <p >Home</p>
         </a>
-        <a href="" style="float: left;">
-            <p >YYYYY</p>
-        </a>
-        <a href="login.php" style="float: left;">
-            <p >Login</p>
-        </a>
-        <a href="logout.php" style="float: left;">
-            <p >Logout</p>
-        </a>
         <br style="margin-bottom: 10px; clear: both;">
-        <br style="margin-bottom: 10px; clear: both;">
+        <!-- <br style="margin-bottom: 10px; clear: both;"> -->
     </header>

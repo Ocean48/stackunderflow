@@ -1,15 +1,13 @@
-<?php require_once('/admin/private/initialize.php');
+<?php require_once('admin/private/initialize.php');
 
 include('h_f/header.php');
 ?>
 
 
 <main>
-    <!-- <p>StackUnderFlow is coming soon!</p> -->
-    <p>You have been hacked</p>
-    <p>Main</p>
+    <p>StackUnderFlow is coming soon!</p>
 </main>
 
-<br>
+<br><br><br><br>
 
 <?php include('h_f/footer.php'); ?>

@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    background-color: #000000;
+    background-color: #000e48;
 }
 
 header a p {
@@ -14,6 +14,16 @@ header a p {
     font-size: 35px;
 }
 
-#header_logo {
+header #header_logo {
    width: 100px;
+}
+
+footer {
+    background-color: #000e48;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer #copyright {
+    padding: 5px 0px;
 }
