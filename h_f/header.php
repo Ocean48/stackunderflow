@@ -15,7 +15,7 @@
     <header>
         <br style="margin-bottom: 10px;">
         <a href="index.php" style="float: left;">
-            <img id="header_logo" src="../t.png" alt="Logo">
+            <img id="header_logo" src="ot.png" alt="Logo">
         </a>
         <a href="index.php" style="float: left;">
             <p >Home</p>

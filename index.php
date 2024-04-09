@@ -1,15 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StackUnderflow</title>
-    <link rel="icon" type="image/x-icon" href="t.png">
-</head>
-<body>
+<?php require_once('/admin/private/initialize.php');
 
+include('h_f/header.php');
+?>
+
+
+<main>
     <!-- <p>StackUnderFlow is coming soon!</p> -->
     <p>You have been hacked</p>
-    
-</body>
-</html>
+    <p>Main</p>
+</main>
+
+<br>
+
+<?php include('h_f/footer.php'); ?>
