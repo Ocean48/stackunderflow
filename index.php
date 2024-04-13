@@ -6,7 +6,7 @@ include('h_f/header.php');
 
 <main>
     <p>StackUnderFlow is coming soon!</p>
-    <p>PEE PEE POO POO</p>
+    <p></p>
 </main>
 
 <br><br><br><br>
