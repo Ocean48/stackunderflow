@@ -41,3 +41,12 @@ function user_is_logged_in()
 {
 	return isset($_SESSION['user_id']);
 }
+
+function user_require_login()
+{
+	if (!user_is_logged_in()) {
+		header('Location:login.php');
+	} else {
+		// Do nothing, let the rest of the page proceed
+	}
+}
