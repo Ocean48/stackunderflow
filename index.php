@@ -6,8 +6,10 @@ include('h_f/header.php');
 
 <main>
     <p>StackUnderFlow is coming soon!</p>
-    <h2 style="margin: auto; width: 60%; padding: 10px;">Hi <?php echo get_admin_by_id($_SESSION['admin_id'])['username']; ?>!</h2>
 
+    <?php if (user_is_logged_in()) { ?>
+        <h2 style="margin: auto; width: 60%; padding: 10px;">Hi <?php echo get_admin_by_id($_SESSION['admin_id'])['username']; ?>!</h2>
+    <?php } ?>
     <p></p>
 </main>
 
