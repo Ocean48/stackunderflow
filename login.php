@@ -1,5 +1,5 @@
 <?php
-require_once('admin/private/initialize.php');
+require_once('admin/private/initialize_f.php');
 
 $errors = [];
 $username = '';

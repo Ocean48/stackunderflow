@@ -1,4 +1,4 @@
-<?php require_once('admin/private/initialize.php');
+<?php require_once('admin/private/initialize_f.php');
 
 include('h_f/header.php');
 ?>

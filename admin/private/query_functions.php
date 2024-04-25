@@ -185,3 +185,6 @@ function create_new_user($username, $password)
 // 	mysqli_free_result($result);
 // 	return $admin;
 // }
+
+
+?>

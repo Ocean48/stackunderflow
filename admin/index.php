@@ -1,9 +1,10 @@
-<?php require_once('private/initialize.php');
+<?php require_once('private/initialize_b.php');
 
 admin_require_login();
 $page_title = 'StackUnderFlow';
 
 $adminuser = get_admin_by_id($_SESSION['admin_id']);
+$total_user_count = get_total_user();
 
 include('h_f/header.php');
 ?>
@@ -16,7 +17,8 @@ include('h_f/header.php');
 </div>
 
 <main>
-    <p>Main</p>
+    <h3>Main</h3>
+    <h3>Total user count in database: <?php echo $total_user_count['count']; ?></h3>
 </main>
 
 <br>
