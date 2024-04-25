@@ -19,6 +19,11 @@ header #header_logo {
 }
  */
 
+#login_sign {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
 
 footer {
     background-color: #000e48;

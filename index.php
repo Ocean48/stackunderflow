@@ -3,8 +3,8 @@
 include('h_f/header.php');
 ?>
 
-
 <main>
+
     <p>StackUnderFlow is coming soon!</p>
 
     <?php if (user_is_logged_in()) { ?>
