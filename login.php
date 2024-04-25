@@ -57,8 +57,9 @@ include('h_f/header.php');
 			<input type="text" name="username" required /><br />
 
 			Password:<br />
-			<input type="password" name="password" id="mypassword" required />
-			<input type="checkbox" onclick="show_password()">Show Password
+			<input type="password" name="password" id="mypassword" show_password required />
+			<br>
+			<input type="checkbox" onclick="show_password()"> Show Password
 
 			<script>
 				function show_password() {
