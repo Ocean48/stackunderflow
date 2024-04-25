@@ -26,6 +26,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 			} else {
 				// username found, but password does not match
 				$errors[] = $login_failure_msg;
+				echo '<script language="javascript">';
+				echo 'alert("Wrong username or password")';
+				echo '</script>';
 			}
 		} elseif ($user == -3) {
 			// no username found
@@ -33,6 +36,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 			echo '<script language="javascript">';
 			echo 'alert("Wrong username or password")';
 			echo '</script>';
+		}
+		else {
+			echo "no";
 		}
 	}
 }

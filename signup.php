@@ -13,7 +13,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (create_new_user($username, $password)) {
         header("Location:login.php");
     } else {
-        echo "Something want wrong, please try again";
+        echo '<script language="javascript">';
+        echo 'alert("Something went wrong, please try again later. If you have seen this message more than a few time, please contact support")';
+        echo '</script>';
     }
 }
 

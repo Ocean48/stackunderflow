@@ -38,8 +38,8 @@
                         <a href="logout.php" class="btn btn-outline-light me-2">Logout</a>
                     <?php } else { ?>
                         <a href="login.php" class="btn btn-outline-light me-2">Login</a>
+                        <a href="signup.php" class="btn btn-warning">Sign-up</a>
                     <?php } ?>
-                    <a href="signup.php" class="btn btn-warning">Sign-up</a>
                 </div>
             </div>
         </div>

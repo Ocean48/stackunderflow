@@ -127,6 +127,9 @@ function get_user_by_username($username)
 	return $admin;
 }
 
+/**
+ * 
+ */
 function create_new_user($username, $password)
 {
 	global $db;
@@ -140,7 +143,8 @@ function create_new_user($username, $password)
 		// UPDATE failed
 		echo mysqli_error($db);
 		db_disconnect($db);
-		exit;
+		// exit;
+		return false;
 	}
 }
 
