@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1deb1
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost:3306
--- Generation Time: Apr 17, 2024 at 07:36 PM
+-- Host: localhost
+-- Generation Time: Apr 27, 2024 at 02:05 AM
 -- Server version: 10.11.6-MariaDB-0+deb12u1
--- PHP Version: 8.2.7
+-- PHP Version: 8.2.18
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -43,6 +43,40 @@ INSERT INTO `admin` (`id`, `username`, `password`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `post`
+--
+
+CREATE TABLE `post` (
+  `id` int(11) NOT NULL,
+  `createdtime` timestamp NOT NULL,
+  `editedtime` timestamp NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `content` text NOT NULL,
+  `flag` int(11) NOT NULL COMMENT '0-active\r\n1-deactive',
+  `userid` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `thread`
+--
+
+CREATE TABLE `thread` (
+  `id` int(11) NOT NULL,
+  `postid` int(11) NOT NULL,
+  `createdtime` timestamp NOT NULL,
+  `editedtime` timestamp NOT NULL,
+  `threadid` int(11) DEFAULT NULL,
+  `flag` int(11) NOT NULL COMMENT '0-activve\r\n1-deactive',
+  `userid` int(11) NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `content` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `user`
 --
 
@@ -70,6 +104,18 @@ ALTER TABLE `admin`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `post`
+--
+ALTER TABLE `post`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `thread`
+--
+ALTER TABLE `thread`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `user`
 --
 ALTER TABLE `user`
@@ -83,6 +129,18 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `admin`
 --
 ALTER TABLE `admin`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT for table `post`
+--
+ALTER TABLE `post`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT for table `thread`
+--
+ALTER TABLE `thread`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
