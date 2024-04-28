@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 
 <head>
     <meta charset="UTF-8">
@@ -44,6 +44,7 @@
             </div>
         </div>
     </header>
+
     <!-- <header>
         <a href="index.php" style="float: left;">
             <img id="header_logo" src="t.png" alt="Logo">
