@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	}
 }
 
-$page_title = 'StackUnderFlow';
+$page_title = 'Releaf';
 include('h_f/header.php');
 ?>
 

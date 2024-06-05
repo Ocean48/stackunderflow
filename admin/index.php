@@ -1,7 +1,7 @@
 <?php require_once('private/initialize_b.php');
 
 admin_require_login();
-$page_title = 'StackUnderFlow';
+$page_title = 'Releaf';
 
 $adminuser = get_admin_by_id($_SESSION['admin_id']);
 $total_user_count = get_total_user();
